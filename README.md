@@ -9,7 +9,9 @@
   <img src="assets/screenshot-mobile.png" width="200" alt="手機版">
 </p>
 
-🔗 **Live Demo：** https://809540023-lgtm.github.io/amazon-onepage-bot/
+🔗 **Live Demo**
+- Render：https://amazon-onepage-bot.onrender.com/
+- GitHub Pages：https://809540023-lgtm.github.io/amazon-onepage-bot/
 
 每次貼一個新網址，它就會自動抓取商品資料、寫好繁中銷售文案、算好含運費與關稅的台灣到手價，
 然後把整頁重新產生一份。三個商品會被串成一套「卸妝 → 洗臉 → 代謝角質」的保養流程。
