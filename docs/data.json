@@ -1,0 +1,958 @@
+{
+  "generatedAt": "2026-09-23T19:09:24.945Z",
+  "marketing": {
+    "brand": "日本藥妝直送所",
+    "tagline": "AI 生徒 24H 直播選物",
+    "serviceFeeRate": 0,
+    "promoDiscountRate": 0
+  },
+  "ai": {
+    "personaName": "小葵",
+    "personaRole": "AI 生徒實習生",
+    "voice": "zh-TW",
+    "autoTts": false
+  },
+  "shippingCfg": {
+    "note": "台灣到手價為估算值，實際費率以 Amazon 結帳頁為準",
+    "baseTwd": 95,
+    "perItemTwd": 45,
+    "perKgTwd": 160,
+    "minItemWeightKg": 0.3,
+    "defaultItemWeightKg": 0.3
+  },
+  "customsCfg": {
+    "note": "台灣進口郵包完稅價格 NT$2,000 以下免稅；超過者預估關稅 + 營業稅",
+    "dutyFreeLimitTwd": 2000,
+    "dutyRate": 0.05,
+    "vatRate": 0.05
+  },
+  "fx": {
+    "pair": "JPY/TWD",
+    "rate": 0.201346,
+    "source": "https://open.er-api.com/v6/latest/JPY",
+    "updatedAt": "Wed, 23 Sep 2026 00:02:31 +0000",
+    "fetchedAt": "2026-09-23T18:43:12.714Z",
+    "fallback": false
+  },
+  "products": [
+    {
+      "asin": "B08R6ZHZHV",
+      "url": "https://www.amazon.co.jp/dp/B08R6ZHZHV",
+      "source": "www.amazon.co.jp",
+      "title": "嘉娜宝(Kanebo) 嘉娜宝 泥浆洗面奶 130克",
+      "titleClean": "嘉娜宝(Kanebo) 泥浆洗面奶 130克",
+      "brand": "Kanebo",
+      "priceJpy": 3080,
+      "listPriceJpy": null,
+      "rating": 4.4,
+      "reviews": 1817,
+      "images": [
+        "https://m.media-amazon.com/images/I/51rki4gNR6L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/41ndk1khQ5L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61PeKjfV6DL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/610+ZBWZYJL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61ncRyoZ35L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/41hBJLniRvL._AC_SL1200_.jpg"
+      ],
+      "hero": "https://m.media-amazon.com/images/I/51rki4gNR6L._AC_SL1200_.jpg",
+      "bullets": [
+        "风格: 单品",
+        "内容量:130G",
+        "包装尺寸:19.05×4.5×5.1(cm)",
+        "包装重量:0.17kg"
+      ],
+      "description": "内容简介 打造清澈的肌肤,吸附抛光洁面。 配合摩洛哥溶岩粘土(洗净成分)的糊中添加了破坏性磨砂,吸附多余皮脂,去除老化角质、毛孔污垢,一次性。 如同吸附在肌肤上一般的生泥触感的糊的三种质感变化,令人难以置信,使肌肤水润亮泽。 在实现浓密的泡沫洁面的同时,每天都能彻底消除想去掉的冲动。 提示 • 请勿使用于有伤口、肿胀、湿疹等异常的地方。 • 使用时请特别注意肌肤是否出现异常反应。 如果化妆品不适合皮肤,请停止使用。 1 使用过程中出现红肿、发痒、刺激、掉色(白斑等)或黑头等异常情况。 2 使用后的肌肤时,阳光直射会出现上述异常情况。 如果继续使用化妆品类产品,可能会导致症状恶化,建议咨询皮肤科医生。 • 请注意不要进入眼睛。 如果不慎入眼,请立即充分冲洗。 若存在异常情况,请咨询眼科医生。 • 为了防止儿童和认知障碍的人等误食,请妥善保管。 • 使用后请拧紧瓶盖。 • 请避免放置在极端高温或较低的地方以及阳光直射的地方。 P.when('A').execute(function(A) { A.on('a:expander:toggle_description:toggle:collapse', function(data) { window.scroll(0, data.expander.$expander[0].offsetTop-100); }); }); 成分 成分:甘油、肉豆蔻酸、水、氢氧化钾、摩洛哥溶岩粘土、PEG-32、PEG-6、棕榈酸、甲葡聚醚-10、DPG、月桂酸、硬脂酸甘油酯(SE)、香料、纤维素、EDTA-4Na、聚季铵盐-44、丝绸、乙基纤维素、透明质酸钠、椰油甲基牛磺酸钠、椰子籽油 使用说明 使用方法:• 请先将脸弄湿,避免眼睛周围,直接拉开皮肤。 1次的使用量约为直径2cm(约2g)。 • 请用手涂抹的磨砂膏。 • 用少量的水或温水,用起泡一边清洗整个面部。 作为部分面膜的洗脸方法使用方法:• 每周1次,担心粘腻或粗糙的情况。 • 脸部不湿的状态下使用。 卸妆后脸部被弄湿时,请用毛巾等擦拭面部。 • 直接在 T区等在意油光和毛孔脏污的部位。 1次的使用量约为直径2cm(约2g)。 • 放置30秒左右后,再加入少量的水或温水,泡出整个面部。 查看更多",
+      "specs": {
+        "品牌": "Kanebo",
+        "重量": "130 克",
+        "香味": "百合",
+        "適用年齡": "成人",
+        "適合膚質": "普通",
+        "數量": "1",
+        "商品特色": "配合溶岩粘土・磨砂(清洁)、吸附清洁洁面。 充满解放感的三级质感变化,打造清爽的肌肤。",
+        "主要功效": "去除污垢, 毛孔护理, 滋润, 照亮肌肤, 角质护理",
+        "劑型": "乳液"
+      },
+      "category": "洗面乳",
+      "tags": [
+        "深層清潔"
+      ],
+      "availability": "unknown",
+      "scrapedAt": "2026-09-23T18:44:57.878Z",
+      "fetchVia": "fetch",
+      "rank": 1,
+      "content": {
+        "asin": "B08R6ZHZHV",
+        "accent": {
+          "name": "sakura",
+          "from": "#ff5e8a",
+          "to": "#ff9a6b",
+          "glow": "255,94,138"
+        },
+        "brand": "Kanebo",
+        "titleTW": "嘉娜寶(Kanebo) 泥漿洗面奶 130克",
+        "titleCard": "嘉娜寶(Kanebo) 泥漿洗面奶 130克",
+        "shortName": "嘉娜寶(Kanebo) 泥漿洗面奶 130克",
+        "headline": "每天 60 秒，把毛孔洗到會呼吸",
+        "subhead": "洗後不緊繃的關鍵，是洗掉髒污、留下水分",
+        "painPoints": [
+          "洗完臉乾澀緊繃，笑一下都覺得拉扯",
+          "T 字部位照樣出油，粉刺越長越多",
+          "洗面乳起泡慢，早上根本沒時間"
+        ],
+        "sellingPoints": [
+          {
+            "icon": "🌋",
+            "title": "礦泥深層吸附",
+            "desc": "吸附多餘皮脂與髒污，洗完的清爽感可以撐比較久。"
+          },
+          {
+            "icon": "📝",
+            "title": "日本官方商品說明",
+            "desc": "配合溶岩粘土・磨砂(清潔)、吸附清潔潔面。 充滿解放感的三級質感變化,打造清爽的肌膚。"
+          },
+          {
+            "icon": "✅",
+            "title": "主要功效",
+            "desc": "去除汙垢, 毛孔護理, 滋潤, 照亮肌膚, 角質護理"
+          },
+          {
+            "icon": "🧴",
+            "title": "這樣用最有感",
+            "desc": "取適量加水起泡，從額頭、鼻翼、下巴畫圈清潔 30～60 秒後沖淨。"
+          },
+          {
+            "icon": "⭐",
+            "title": "日本亞馬遜 4.4 星好評",
+            "desc": "累積 1,817 則評價，是日本藥妝架上回購率名列前茅的定番商品。"
+          }
+        ],
+        "specs": [
+          {
+            "key": "適合膚質",
+            "value": "普通"
+          },
+          {
+            "key": "香味",
+            "value": "百合"
+          },
+          {
+            "key": "劑型",
+            "value": "乳液"
+          }
+        ],
+        "audience": [
+          "想找一瓶洗完不緊繃的人",
+          "保養有在做，但覺得效果卡住的人",
+          "想買日本原裝、又不想自己處理國際運費的人"
+        ],
+        "usage": "取適量加水起泡，從額頭、鼻翼、下巴畫圈清潔 30～60 秒後沖淨。",
+        "faq": [
+          {
+            "q": "運費怎麼算？多久會到？",
+            "a": "本頁提供台灣到手價試算，已含國際運費預估。實際費率與配送時間以 Amazon 結帳頁顯示為準，一般約 4～10 個工作天。"
+          },
+          {
+            "q": "會被收關稅嗎？",
+            "a": "台灣進口郵包完稅價格在新臺幣 2,000 元以下通常免稅；超過的部分會產生關稅與營業稅，本頁試算已預先估算，實際金額以海關認定為準。"
+          },
+          {
+            "q": "是正品嗎？",
+            "a": "商品直接由日本 Amazon（www.amazon.co.jp）出貨，ASIN B08R6ZHZHV，與日本當地藥妝店同步販售。"
+          },
+          {
+            "q": "這瓶適合我嗎？",
+            "a": "洗完臉乾澀緊繃，笑一下都覺得拉扯——如果你也有同樣的困擾，這瓶就是為你準備的。"
+          },
+          {
+            "q": "有效期限與保存方式？",
+            "a": "日本原裝出貨，保存期限依包裝標示。建議放置陰涼處、避免陽光直射，開封後盡早使用完畢。"
+          }
+        ],
+        "stars": "★★★★☆",
+        "priceLine": "日本定價 ¥3,080",
+        "proofLine": "4.4 星、1,817 則評價",
+        "routine": 3,
+        "liveIntro": [
+          "接下來這瓶，日本當地 日本定價 ¥3,080，4.4 星、1,817 則評價。",
+          "每天 60 秒，把毛孔洗到會呼吸——這句話不是廣告詞，是這瓶的實際設計目的。",
+          "它的關鍵字是「深層清潔」，洗完臉乾澀緊繃，笑一下都覺得拉扯的人真的要試。",
+          "評分 4.4 星、1,817 則評價，留言區很多人是回購第二次。",
+          "用法很簡單：取適量加水起泡，從額頭、鼻翼、下巴畫圈清潔 30～60 秒後沖淨。",
+          "如果你有「T 字部位照樣出油，粉刺越長越多」這種狀況，先把它加入清單，等等組合價更划算。"
+        ]
+      },
+      "price": {
+        "quantity": 1,
+        "unitJpy": 3080,
+        "jpyTotal": 3080,
+        "goodsTwd": 620,
+        "shippingTwd": 188,
+        "dutyTwd": 0,
+        "vatTwd": 0,
+        "customsTwd": 0,
+        "landedTwd": 808,
+        "perUnitTwd": 808,
+        "weightKg": 0.3,
+        "taxFree": true,
+        "dutyFreeLimitTwd": 2000
+      }
+    },
+    {
+      "asin": "B000FQMR1O",
+      "url": "https://www.amazon.co.jp/dp/B000FQMR1O",
+      "source": "www.amazon.co.jp",
+      "title": "Utena everish 芦荟磨砂洁面乳 135g",
+      "titleClean": "Utena everish 芦荟磨砂洁面乳 135g",
+      "brand": "Utena",
+      "priceJpy": 347,
+      "listPriceJpy": null,
+      "rating": 4.3,
+      "reviews": 1481,
+      "images": [
+        "https://m.media-amazon.com/images/I/611MKxTmC-L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/71pXSP8qL2L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61XGI7-UwWL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/51kzHm5TB-L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/41-zjhvgzXL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/51ueuG7FXRL._AC_SL1200_.jpg"
+      ],
+      "hero": "https://m.media-amazon.com/images/I/611MKxTmC-L._AC_SL1200_.jpg",
+      "bullets": [
+        "商品尺寸(宽×深×高):72毫米×45毫米×165毫米",
+        "原产国:日本",
+        "内容量:135g"
+      ],
+      "description": "内容简介 *清洗方便,及时关闭眼睛,避免颗粒进入眼睛。 *若颗粒进入眼睛,请立即冲洗干净。 眼睛残留异物感时请咨询眼科医生。 *在冬天或使用初期,可能会使内容物不易出现,但品质上没有问题。 伤口、肿胀、湿疹等异常时请不要使用。 使用中或使用后日光直射,出现发红、肿胀、瘙痒、刺激等异常情况时请停止使用,建议咨询皮肤科医生。 持续使用可能会导致恶化。 使用后请务必拧紧瓶盖。 请将本品放置在儿童接触不到的地方。本品不能代替药物。 请勿放置在极端高温或低温场所、阳光直射的地方。 采用植物磨砂配方,彻底清除毛孔黑头、老化角质的磨砂洗面系列。 配合芦荟叶末、核桃磨砂(清洁辅助成分)。 使毛孔黑头、老化角质变得光滑肌肤。 成分 全部成分:水、肉豆蔻酸、硬脂酸、甘油、氢氧化钾、月桂酸、乙二葡甘聚糖浆、山梨糖醇、螯合芦荟叶、芦荟汁、蜂蜜、聚山梨醇酯60、硬脂酸甘油酯、PG、PEG‐6、PEG‐32、PEG‐75、椰油酰胺丙基甜菜碱、香料 #productDescription { color: #333333; word-wrap: break-word; font-size: small; line-height: initial; margin: 0.5em 0px 0em 25px; } #productDescription_feature_div > h2.default { font-size: medium; margin: 0 0 0.25em; } #productDescription_feature_div > h2.books { color:#333 !important; font-size:21px !important; line-height: 1.3; padding-bottom: 4px; font-weight: normal; margin: 0px; } #productDescription_feature_div > h2.softlines { color:#333 !important; font-size:21px !important; line-height: 1.3; padding-bottom: 4px; font-weight: bold; margin: 0px; } #productDescription > p",
+      "specs": {
+        "品牌": "Utena",
+        "適合膚質": "中性肌肤",
+        "商品特色": "清洁",
+        "材質": "自然",
+        "容量": "135 毫升",
+        "不含成分": "不含染料",
+        "數量": "1",
+        "主要功效": "角质护理",
+        "重量": "0.14 克",
+        "適用部位": "臉部"
+      },
+      "category": "去角質",
+      "tags": [
+        "角質護理",
+        "日本製",
+        "植萃成分"
+      ],
+      "availability": "unknown",
+      "scrapedAt": "2026-09-23T18:44:54.555Z",
+      "fetchVia": "fetch",
+      "rank": 2,
+      "content": {
+        "asin": "B000FQMR1O",
+        "accent": {
+          "name": "matcha",
+          "from": "#12b886",
+          "to": "#0ea5e9",
+          "glow": "18,184,134"
+        },
+        "brand": "Utena",
+        "titleTW": "Utena everish 蘆薈磨砂潔面乳 135g",
+        "titleCard": "Utena everish 蘆薈磨砂潔面乳 135g",
+        "shortName": "Utena everish 蘆薈磨砂潔面乳 135g",
+        "headline": "每週 2 次，把老廢角質溫柔推走",
+        "subhead": "角質代謝順了，後續保養吸收立刻有差",
+        "painPoints": [
+          "臉摸起來粗粗的、上妝卡粉",
+          "保養品擦了好像吸收不進去",
+          "鼻翼兩側總有一層洗不掉的粗糙感"
+        ],
+        "sellingPoints": [
+          {
+            "icon": "✨",
+            "title": "溫和代謝角質",
+            "desc": "帶走表層老廢角質，後續保養擦上去更有感。"
+          },
+          {
+            "icon": "🇯🇵",
+            "title": "日本製造原裝",
+            "desc": "日本當地藥妝店同步販售的原裝版本，不是來路不明的平行輸入。"
+          },
+          {
+            "icon": "🌿",
+            "title": "植萃成分加持",
+            "desc": "蘆薈、綠茶、果實萃取等植物成分，溫和但洗得乾淨。"
+          },
+          {
+            "icon": "🧴",
+            "title": "這樣用最有感",
+            "desc": "一週 2～3 次，取適量在濕潤臉上輕柔畫圈，避開眼周後徹底沖淨。"
+          },
+          {
+            "icon": "⭐",
+            "title": "日本亞馬遜 4.3 星好評",
+            "desc": "累積 1,481 則評價，是日本藥妝架上回購率名列前茅的定番商品。"
+          }
+        ],
+        "specs": [
+          {
+            "key": "容量",
+            "value": "135 毫升"
+          },
+          {
+            "key": "適合膚質",
+            "value": "中性肌膚"
+          },
+          {
+            "key": "不含成分",
+            "value": "不含染料"
+          },
+          {
+            "key": "主要功效",
+            "value": "角質護理"
+          },
+          {
+            "key": "適用部位",
+            "value": "臉部"
+          }
+        ],
+        "audience": [
+          "想找一瓶洗完不緊繃的人",
+          "保養有在做，但覺得效果卡住的人",
+          "想買日本原裝、又不想自己處理國際運費的人"
+        ],
+        "usage": "一週 2～3 次，取適量在濕潤臉上輕柔畫圈，避開眼周後徹底沖淨。",
+        "faq": [
+          {
+            "q": "運費怎麼算？多久會到？",
+            "a": "本頁提供台灣到手價試算，已含國際運費預估。實際費率與配送時間以 Amazon 結帳頁顯示為準，一般約 4～10 個工作天。"
+          },
+          {
+            "q": "會被收關稅嗎？",
+            "a": "台灣進口郵包完稅價格在新臺幣 2,000 元以下通常免稅；超過的部分會產生關稅與營業稅，本頁試算已預先估算，實際金額以海關認定為準。"
+          },
+          {
+            "q": "是正品嗎？",
+            "a": "商品直接由日本 Amazon（www.amazon.co.jp）出貨，ASIN B000FQMR1O，與日本當地藥妝店同步販售。"
+          },
+          {
+            "q": "這瓶適合我嗎？",
+            "a": "臉摸起來粗粗的、上妝卡粉——如果你也有同樣的困擾，這瓶就是為你準備的。"
+          },
+          {
+            "q": "有效期限與保存方式？",
+            "a": "日本原裝出貨，保存期限依包裝標示。建議放置陰涼處、避免陽光直射，開封後盡早使用完畢。"
+          }
+        ],
+        "stars": "★★★★☆",
+        "priceLine": "日本定價 ¥347",
+        "proofLine": "4.3 星、1,481 則評價",
+        "routine": 4,
+        "liveIntro": [
+          "接下來這瓶，日本當地 日本定價 ¥347，4.3 星、1,481 則評價。",
+          "每週 2 次，把老廢角質溫柔推走——這句話不是廣告詞，是這瓶的實際設計目的。",
+          "它的關鍵字是「角質護理・日本製・植萃成分」，臉摸起來粗粗的、上妝卡粉的人真的要試。",
+          "評分 4.3 星、1,481 則評價，留言區很多人是回購第二次。",
+          "用法很簡單：一週 2～3 次，取適量在濕潤臉上輕柔畫圈，避開眼周後徹底沖淨。",
+          "如果你有「保養品擦了好像吸收不進去」這種狀況，先把它加入清單，等等組合價更划算。"
+        ]
+      },
+      "price": {
+        "quantity": 1,
+        "unitJpy": 347,
+        "jpyTotal": 347,
+        "goodsTwd": 70,
+        "shippingTwd": 188,
+        "dutyTwd": 0,
+        "vatTwd": 0,
+        "customsTwd": 0,
+        "landedTwd": 258,
+        "perUnitTwd": 258,
+        "weightKg": 0.3,
+        "taxFree": true,
+        "dutyFreeLimitTwd": 2000
+      }
+    },
+    {
+      "asin": "B07G5JQW5V",
+      "url": "https://www.amazon.co.jp/dp/B07G5JQW5V",
+      "source": "www.amazon.co.jp",
+      "title": "クレンジングリサーチ 泡沫清洁卸妆 150mL 清爽型 卸妆 泡沫卸妆 卸妆 去角质护理 毛孔护理 泡沫洗脸 省时 无酒精",
+      "titleClean": "クレンジングリサーチ 泡沫清洁卸妆 150mL 清爽型 卸妆 泡沫卸妆 去角质护理 毛孔护理 泡沫洗脸 省时 无酒精",
+      "brand": "Cleansing Research",
+      "priceJpy": 631,
+      "listPriceJpy": null,
+      "rating": 4.3,
+      "reviews": 556,
+      "images": [
+        "https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/51qosuT583L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61JhGTFvpFL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/41wQYRuxVoL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/215C0LcyycL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/21NhKALxTxL._AC_SL1200_.jpg"
+      ],
+      "hero": "https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg",
+      "bullets": [
+        "内容量:150毫升",
+        "适合肤质:普通肤质。",
+        "原材料: 水、甘油、PG、钾皂基、月桂酸、月桂基羟基磺基甜菜碱、水氧化钾、猕猴桃提取物、葡萄柚提取物、茶叶提取物、苹果果实提取物、BG、PEG-40氢化蓖麻油、异硬脂酸PEG-15甘油酯、椰油酰胺甲基MEA、椰油酸Na、肉豆蔻酸、苹果酸、氢化聚异丁烯、乳酸、EDTA-4Na、苯氧乙醇、香料",
+        "品牌名称:クレンジングリサーチ",
+        "制造商名称:造型生活"
+      ],
+      "description": "内容简介 配合水果酸的浓密泡沫洗后,洗去老化角质,洗后水润有透明感的肌肤。 100%植物性洗净成分。 清爽型。 无上色、无酒精、无矿物油。 清新的香气。 保湿成分:苹果果实提取物、葡萄柚果实提取物。 提示 请不要使用有伤口、肿胀、湿疹等异常部位。 使用时请特别注意肌肤是否出现异常反应。 使用中出现发红、肿胀、瘙痒、发痒、浮色或脱色(白斑等)或黑头等异常时请停止使用。 持续使用可能会导致恶化。 如不慎入眼,请立即冲洗。 请勿摇晃容器、倾斜使用时,请竖起来保管。 ●请注意不要让水进入容器中。 P.when('A').execute(function(A) { A.on('a:expander:toggle_description:toggle:collapse', function(data) { window.scroll(0, data.expander.$expander[0].offsetTop-100); }); }); 成分 水、甘油、PG、钾皂基、月桂酸、月桂基羟基磺酸钠、氢氧化钾、猕猴桃提取物、葡萄柚提取物、茶叶提取物、苹果果实提取物、BG、PEG-40氢化蓖麻油、异硬脂酸PEG-15甘油酯、椰油酰胺甲基MEA、椰油醋酸钠、肉豆蔻酸、苹果酸、氢化聚异丁酯、乳酸、EDTA-4Na、苯氧乙醇、香料 法律声明 注意(免责)> 请务必阅读 在库存售罄时,可能会寄送或取消。 另外,Amazon配送预定日期和本公司的商品预计送达日期可能有所不同,请谅解。 商品可能在未提前通知的情况下变更包装的情况。 ※不接受由于顾客原因的退货 查看更多",
+      "specs": {
+        "品牌": "CLEANSING RESEARCH",
+        "香味": "新鲜",
+        "適用年齡": "成人",
+        "適合膚質": "普通",
+        "數量": "1",
+        "主要功效": "角质护理",
+        "劑型": "泡沫",
+        "材質": "天然",
+        "不含成分": "不含酒精, 无上色, 无矿物油"
+      },
+      "category": "卸妝",
+      "tags": [
+        "毛孔護理",
+        "角質護理",
+        "深層清潔",
+        "敏感肌友善",
+        "柑橘果香",
+        "泡泡質地",
+        "植萃成分"
+      ],
+      "availability": "unknown",
+      "scrapedAt": "2026-09-23T18:45:00.641Z",
+      "fetchVia": "fetch",
+      "rank": 3,
+      "content": {
+        "asin": "B07G5JQW5V",
+        "accent": {
+          "name": "yuzu",
+          "from": "#f59f00",
+          "to": "#ff7b54",
+          "glow": "245,159,0"
+        },
+        "brand": "Cleansing Research",
+        "titleTW": "クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理 毛孔護理 泡沫洗臉 省時 無酒精",
+        "titleCard": "クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理 毛孔護理 泡沫洗臉…",
+        "shortName": "クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…",
+        "headline": "一抹就融妝，連毛孔裡的髒污都不放過",
+        "subhead": "卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養",
+        "painPoints": [
+          "卸妝油沖不乾淨，臉上一直有膜感",
+          "卸完臉緊繃、乾到出細紋",
+          "睫毛膏、防曬怎麼搓都還在"
+        ],
+        "sellingPoints": [
+          {
+            "icon": "🫧",
+            "title": "針對毛孔護理",
+            "desc": "鼻翼、下巴這些最容易粗糙的地方，洗完觸感明顯變平滑。"
+          },
+          {
+            "icon": "✨",
+            "title": "溫和代謝角質",
+            "desc": "帶走表層老廢角質，後續保養擦上去更有感。"
+          },
+          {
+            "icon": "🌋",
+            "title": "礦泥深層吸附",
+            "desc": "吸附多餘皮脂與髒污，洗完的清爽感可以撐比較久。"
+          },
+          {
+            "icon": "🧴",
+            "title": "這樣用最有感",
+            "desc": "手乾臉乾時按壓 2～3 下，全臉畫圈按摩 30 秒，加水乳化後沖淨。"
+          },
+          {
+            "icon": "⭐",
+            "title": "日本亞馬遜 4.3 星好評",
+            "desc": "累積 556 則評價，是日本藥妝架上回購率名列前茅的定番商品。"
+          }
+        ],
+        "specs": [
+          {
+            "key": "適合膚質",
+            "value": "普通"
+          },
+          {
+            "key": "不含成分",
+            "value": "不含酒精, 無上色, 無礦物油"
+          },
+          {
+            "key": "香味",
+            "value": "新鮮"
+          },
+          {
+            "key": "劑型",
+            "value": "泡沫"
+          },
+          {
+            "key": "主要功效",
+            "value": "角質護理"
+          }
+        ],
+        "audience": [
+          "敏感肌、換季容易泛紅的人",
+          "每天都要化妝、需要快速卸除的人",
+          "想買日本原裝、又不想自己處理國際運費的人"
+        ],
+        "usage": "手乾臉乾時按壓 2～3 下，全臉畫圈按摩 30 秒，加水乳化後沖淨。",
+        "faq": [
+          {
+            "q": "運費怎麼算？多久會到？",
+            "a": "本頁提供台灣到手價試算，已含國際運費預估。實際費率與配送時間以 Amazon 結帳頁顯示為準，一般約 4～10 個工作天。"
+          },
+          {
+            "q": "會被收關稅嗎？",
+            "a": "台灣進口郵包完稅價格在新臺幣 2,000 元以下通常免稅；超過的部分會產生關稅與營業稅，本頁試算已預先估算，實際金額以海關認定為準。"
+          },
+          {
+            "q": "是正品嗎？",
+            "a": "商品直接由日本 Amazon（www.amazon.co.jp）出貨，ASIN B07G5JQW5V，與日本當地藥妝店同步販售。"
+          },
+          {
+            "q": "這瓶適合我嗎？",
+            "a": "卸妝油沖不乾淨，臉上一直有膜感——如果你也有同樣的困擾，這瓶就是為你準備的。"
+          },
+          {
+            "q": "有效期限與保存方式？",
+            "a": "日本原裝出貨，保存期限依包裝標示。建議放置陰涼處、避免陽光直射，開封後盡早使用完畢。"
+          }
+        ],
+        "stars": "★★★★☆",
+        "priceLine": "日本定價 ¥631",
+        "proofLine": "4.3 星、556 則評價",
+        "routine": 1,
+        "liveIntro": [
+          "接下來這瓶，日本當地 日本定價 ¥631，4.3 星、556 則評價。",
+          "一抹就融妝，連毛孔裡的髒汙都不放過——這句話不是廣告詞，是這瓶的實際設計目的。",
+          "它的關鍵字是「毛孔護理・角質護理・深層清潔」，卸妝油沖不乾淨，臉上一直有膜感的人真的要試。",
+          "評分 4.3 星、556 則評價，留言區很多人是回購第二次。",
+          "用法很簡單：手乾臉乾時按壓 2～3 下，全臉畫圈按摩 30 秒，加水乳化後沖淨。",
+          "如果你有「卸完臉緊繃、乾到出細紋」這種狀況，先把它加入清單，等等組合價更划算。"
+        ]
+      },
+      "price": {
+        "quantity": 1,
+        "unitJpy": 631,
+        "jpyTotal": 631,
+        "goodsTwd": 127,
+        "shippingTwd": 188,
+        "dutyTwd": 0,
+        "vatTwd": 0,
+        "customsTwd": 0,
+        "landedTwd": 315,
+        "perUnitTwd": 315,
+        "weightKg": 0.3,
+        "taxFree": true,
+        "dutyFreeLimitTwd": 2000
+      }
+    }
+  ],
+  "bundle": {
+    "steps": [
+      {
+        "step": 1,
+        "asin": "B07G5JQW5V",
+        "brand": "Cleansing Research",
+        "name": "クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…",
+        "role": "STEP 1 · 先把妝卸乾淨",
+        "image": "https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg",
+        "url": "https://www.amazon.co.jp/dp/B07G5JQW5V",
+        "why": "卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養",
+        "priceJpy": 631,
+        "priceTwd": 315,
+        "accent": {
+          "name": "yuzu",
+          "from": "#f59f00",
+          "to": "#ff7b54",
+          "glow": "245,159,0"
+        }
+      },
+      {
+        "step": 2,
+        "asin": "B08R6ZHZHV",
+        "brand": "Kanebo",
+        "name": "嘉娜寶(Kanebo) 泥漿洗面奶 130克",
+        "role": "洗臉 · 洗掉殘妝與皮脂",
+        "image": "https://m.media-amazon.com/images/I/51rki4gNR6L._AC_SL1200_.jpg",
+        "url": "https://www.amazon.co.jp/dp/B08R6ZHZHV",
+        "why": "洗後不緊繃的關鍵，是洗掉髒污、留下水分",
+        "priceJpy": 3080,
+        "priceTwd": 808,
+        "accent": {
+          "name": "sakura",
+          "from": "#ff5e8a",
+          "to": "#ff9a6b",
+          "glow": "255,94,138"
+        }
+      },
+      {
+        "step": 3,
+        "asin": "B000FQMR1O",
+        "brand": "Utena",
+        "name": "Utena everish 蘆薈磨砂潔面乳 135g",
+        "role": "代謝 · 把老廢角質推走",
+        "image": "https://m.media-amazon.com/images/I/611MKxTmC-L._AC_SL1200_.jpg",
+        "url": "https://www.amazon.co.jp/dp/B000FQMR1O",
+        "why": "角質代謝順了，後續保養吸收立刻有差",
+        "priceJpy": 347,
+        "priceTwd": 258,
+        "accent": {
+          "name": "matcha",
+          "from": "#12b886",
+          "to": "#0ea5e9",
+          "glow": "18,184,134"
+        }
+      }
+    ],
+    "count": 3,
+    "jpyTotal": 4058,
+    "goodsTotalTwd": 817,
+    "singleLandedTwd": 1381,
+    "bundleShipTwd": 374,
+    "bundleCustomsTwd": 0,
+    "bundleLandedTwd": 1191,
+    "promoDiscountTwd": 0,
+    "promoDiscountPercent": 0,
+    "savedTwd": 190,
+    "finalTwd": 1191,
+    "savingsBreakdown": "三件合併成一張訂單，國際運費只收一次，還穩穩壓在免稅門檻內。",
+    "note": "所有商品合併成一張訂單結帳，國際運費只計算一次，件數越多平均每件越低。",
+    "urls": [
+      {
+        "asin": "B08R6ZHZHV",
+        "url": "https://www.amazon.co.jp/dp/B08R6ZHZHV",
+        "label": "嘉娜寶(Kanebo) 泥漿洗面奶 130克"
+      },
+      {
+        "asin": "B000FQMR1O",
+        "url": "https://www.amazon.co.jp/dp/B000FQMR1O",
+        "label": "Utena everish 蘆薈磨砂潔面乳 135g"
+      },
+      {
+        "asin": "B07G5JQW5V",
+        "url": "https://www.amazon.co.jp/dp/B07G5JQW5V",
+        "label": "クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…"
+      }
+    ]
+  },
+  "stats": {
+    "products": 3,
+    "ratingAvg": 4.333333333333333,
+    "reviewsTotal": 3854,
+    "jpyTotal": 4058
+  },
+  "chatPool": [
+    {
+      "u": "小豬_0921",
+      "m": "這瓶我已經回購第三次了 👍"
+    },
+    {
+      "u": "Kiki_TW",
+      "m": "主播今天的聲音好清醒 哈"
+    },
+    {
+      "u": "阿宏",
+      "m": "+1  我要兩瓶"
+    },
+    {
+      "u": "Mia✿",
+      "m": "想問一下 敏感肌可以用嗎？"
+    },
+    {
+      "u": "小葵的學生",
+      "m": "這價格比我上次去日本買還便宜…"
+    },
+    {
+      "u": "台北林太太",
+      "m": "已下單 等收貨 🤍"
+    },
+    {
+      "u": "Hank",
+      "m": "運費怎麼算？直送台灣嗎"
+    },
+    {
+      "u": "Yuki",
+      "m": "泥漿那瓶洗完真的不乾 推"
+    },
+    {
+      "u": "小安",
+      "m": "組合價是多少呀"
+    },
+    {
+      "u": "Chiao",
+      "m": "直播間的資訊欄有連結嗎"
+    },
+    {
+      "u": "柚子",
+      "m": "泡沫卸妝那瓶超省時間 上班族救星"
+    },
+    {
+      "u": "Peter_Lin",
+      "m": "會有關稅嗎？"
+    },
+    {
+      "u": "美妝控",
+      "m": "這個牌子日本藥妝店常缺貨欸"
+    },
+    {
+      "u": "小綠",
+      "m": "主播可以再示範一次用法嗎"
+    },
+    {
+      "u": "Amy",
+      "m": "買了 3 件組 一次解決 🙌"
+    },
+    {
+      "u": "老王",
+      "m": "第一次跟直播 想試試看"
+    },
+    {
+      "u": "Nina",
+      "m": "洗臉那瓶我用一年了 很穩"
+    },
+    {
+      "u": "QQ糖",
+      "m": "可以刷卡嗎？"
+    },
+    {
+      "u": "Ken",
+      "m": "三瓶一起買真的比較省運費"
+    },
+    {
+      "u": "小美",
+      "m": "已加入購物車 🛒"
+    }
+  ],
+  "stream": {
+    "title": "小葵 的日本藥妝選物台｜三瓶搞定日常保養",
+    "persona": "小葵",
+    "personaRole": "AI 生徒實習生",
+    "duration": 104,
+    "segments": [
+      {
+        "dur": 7,
+        "text": "哈囉～大家晚安！我是小葵，今天要開箱的是這個月台灣回購率最高的三瓶日本藥妝。",
+        "mood": "excited",
+        "bg1": "#46284f",
+        "bg2": "#100d1c",
+        "pin": null,
+        "chat": [
+          {
+            "u": "小豬_0921",
+            "m": "來了來了 🤍"
+          },
+          {
+            "u": "台北林太太",
+            "m": "今天有什麼好康"
+          }
+        ]
+      },
+      {
+        "dur": 6,
+        "text": "順序很重要：先把妝卸乾淨、再洗臉、最後代謝角質。照這個順序用，效果差很多。",
+        "mood": "happy",
+        "bg1": "#33265a",
+        "bg2": "#100d1c",
+        "pin": null,
+        "chat": [
+          {
+            "u": "Yuki",
+            "m": "這順序真的差很多 +1"
+          }
+        ]
+      },
+      {
+        "dur": 7,
+        "text": "Kanebo 的 嘉娜寶(Kanebo) 泥漿洗面奶 130克。每天 60 秒，把毛孔洗到會呼吸。",
+        "mood": "happy",
+        "bg1": "#ff5e8a",
+        "bg2": "#140f22",
+        "pin": "B08R6ZHZHV",
+        "chat": [
+          {
+            "u": "柚子",
+            "m": "這瓶我有在用 很推"
+          }
+        ]
+      },
+      {
+        "dur": 8,
+        "text": "洗後不緊繃的關鍵，是洗掉髒汙、留下水分 日本定價 ¥3,080，台灣到手大概 NT$808。",
+        "mood": "happy",
+        "bg1": "#ff5e8a",
+        "bg2": "#140f22",
+        "pin": "B08R6ZHZHV",
+        "chat": [
+          {
+            "u": "Chiao",
+            "m": "這個價格可以欸"
+          }
+        ]
+      },
+      {
+        "dur": 8,
+        "text": "4.4 星、1,817 則評價，洗完臉乾澀緊繃，笑一下都覺得拉扯的人真的要試。用法：取適量加水起泡，從額頭、鼻翼、下巴畫圈清潔 30～60 秒後沖淨。",
+        "mood": "excited",
+        "bg1": "#ff5e8a",
+        "bg2": "#140f22",
+        "pin": "B08R6ZHZHV",
+        "chat": [
+          {
+            "u": "Mia✿",
+            "m": "想問敏感肌可以嗎"
+          },
+          {
+            "u": "小安",
+            "m": "+1"
+          }
+        ]
+      },
+      {
+        "dur": 7,
+        "text": "Utena 的 Utena everish 蘆薈磨砂潔面乳 135g。每週 2 次，把老廢角質溫柔推走。",
+        "mood": "happy",
+        "bg1": "#12b886",
+        "bg2": "#140f22",
+        "pin": "B000FQMR1O",
+        "chat": [
+          {
+            "u": "柚子",
+            "m": "這瓶我有在用 很推"
+          }
+        ]
+      },
+      {
+        "dur": 8,
+        "text": "角質代謝順了，後續保養吸收立刻有差 日本定價 ¥347，台灣到手大概 NT$258。",
+        "mood": "happy",
+        "bg1": "#12b886",
+        "bg2": "#140f22",
+        "pin": "B000FQMR1O",
+        "chat": [
+          {
+            "u": "Chiao",
+            "m": "這個價格可以欸"
+          }
+        ]
+      },
+      {
+        "dur": 8,
+        "text": "4.3 星、1,481 則評價，臉摸起來粗粗的、上妝卡粉的人真的要試。用法：一週 2～3 次，取適量在濕潤臉上輕柔畫圈，避開眼周後徹底沖淨。",
+        "mood": "excited",
+        "bg1": "#12b886",
+        "bg2": "#140f22",
+        "pin": "B000FQMR1O",
+        "chat": [
+          {
+            "u": "Mia✿",
+            "m": "想問敏感肌可以嗎"
+          },
+          {
+            "u": "小安",
+            "m": "+1"
+          }
+        ]
+      },
+      {
+        "dur": 7,
+        "text": "Cleansing Research 的 クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…。一抹就融妝，連毛孔裡的髒汙都不放過。",
+        "mood": "happy",
+        "bg1": "#f59f00",
+        "bg2": "#140f22",
+        "pin": "B07G5JQW5V",
+        "chat": [
+          {
+            "u": "柚子",
+            "m": "這瓶我有在用 很推"
+          }
+        ]
+      },
+      {
+        "dur": 8,
+        "text": "卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養 日本定價 ¥631，台灣到手大概 NT$315。",
+        "mood": "happy",
+        "bg1": "#f59f00",
+        "bg2": "#140f22",
+        "pin": "B07G5JQW5V",
+        "chat": [
+          {
+            "u": "Chiao",
+            "m": "這個價格可以欸"
+          }
+        ]
+      },
+      {
+        "dur": 8,
+        "text": "4.3 星、556 則評價，卸妝油沖不乾淨，臉上一直有膜感的人真的要試。用法：手乾臉乾時按壓 2～3 下，全臉畫圈按摩 30 秒，加水乳化後沖淨。",
+        "mood": "excited",
+        "bg1": "#f59f00",
+        "bg2": "#140f22",
+        "pin": "B07G5JQW5V",
+        "chat": [
+          {
+            "u": "Mia✿",
+            "m": "想問敏感肌可以嗎"
+          },
+          {
+            "u": "小安",
+            "m": "+1"
+          }
+        ]
+      },
+      {
+        "dur": 9,
+        "text": "接下來是重點：這三瓶一起用就是一套完整的日常保養流程，而且合併成一張訂單結帳，國際運費只收一次，比一件一件買平均下來更省。",
+        "mood": "excited",
+        "bg1": "#5a2a6b",
+        "bg2": "#140f22",
+        "pin": null,
+        "chat": [
+          {
+            "u": "Ken",
+            "m": "一起買真的比較省運費"
+          },
+          {
+            "u": "Amy",
+            "m": "已下單 🙌"
+          }
+        ]
+      },
+      {
+        "dur": 7,
+        "text": "合購到手價 NT$1,191，比分開買省下 NT$190。想入手的話，先按下面的「一次買齊三件」，我把連結都放在資訊欄。",
+        "mood": "excited",
+        "bg1": "#2f6b5a",
+        "bg2": "#0d1a17",
+        "pin": null,
+        "chat": [
+          {
+            "u": "QQ糖",
+            "m": "已加入購物車 🛒"
+          },
+          {
+            "u": "老王",
+            "m": "第一次跟直播 想試試看"
+          }
+        ]
+      },
+      {
+        "dur": 6,
+        "text": "今天的直播到這邊，小葵 每天同一時間開播。有任何膚況問題都可以在下面留言，我看到都會回。",
+        "mood": "happy",
+        "bg1": "#3a2b6b",
+        "bg2": "#100d1c",
+        "pin": null,
+        "chat": [
+          {
+            "u": "Nina",
+            "m": "謝謝主播 明天見 🤍"
+          }
+        ]
+      }
+    ],
+    "firstProduct": "B08R6ZHZHV"
+  }
+}

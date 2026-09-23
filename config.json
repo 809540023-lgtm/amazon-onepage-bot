@@ -1,0 +1,33 @@
+{
+  "fx": {
+    "fallbackJpyToTwd": 0.2013,
+    "apiUrl": "https://open.er-api.com/v6/latest/JPY",
+    "cacheHours": 12
+  },
+  "shipping": {
+    "note": "台灣到手價為估算值，實際費率以 Amazon 結帳頁為準",
+    "baseTwd": 95,
+    "perItemTwd": 45,
+    "perKgTwd": 160,
+    "minItemWeightKg": 0.3,
+    "defaultItemWeightKg": 0.3
+  },
+  "customs": {
+    "note": "台灣進口郵包完稅價格 NT$2,000 以下免稅；超過者預估關稅 + 營業稅",
+    "dutyFreeLimitTwd": 2000,
+    "dutyRate": 0.05,
+    "vatRate": 0.05
+  },
+  "marketing": {
+    "brand": "日本藥妝直送所",
+    "tagline": "AI 生徒 24H 直播選物",
+    "serviceFeeRate": 0.0,
+    "promoDiscountRate": 0
+  },
+  "ai": {
+    "personaName": "小葵",
+    "personaRole": "AI 生徒實習生",
+    "voice": "zh-TW",
+    "autoTts": false
+  }
+}

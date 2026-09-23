@@ -1,0 +1,24 @@
+{
+  "name": "amazon-onepage-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "貼上日本 Amazon 商品網址，自動生成台灣市場一頁式銷售網站（含 AI 生徒直播間）",
+  "bin": {
+    "onepage": "./generate.mjs"
+  },
+  "scripts": {
+    "add": "node generate.mjs",
+    "build": "node generate.mjs --rebuild",
+    "refresh": "node generate.mjs --refresh",
+    "list": "node generate.mjs --list",
+    "open": "node generate.mjs --open",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "opencc-js": "^1.4.2"
+  }
+}
