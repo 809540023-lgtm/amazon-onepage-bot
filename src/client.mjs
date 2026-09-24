@@ -97,7 +97,7 @@ export const clientScript = /* js */ `
       if (win && i === 0) win.focus();
     });
     toast('已為你開啟 ' + list.length + ' 個 Amazon 商品頁');
-    pushChat('系統', '✅ 觀眾 ' + count + ' 送出 ' + list.length + ' 筆訂單連結', 'sys');
+    pushChat('系統', '✅ 已為你整理 ' + list.length + ' 筆商品連結（請在 Amazon 完成結帳）', 'sys');
   });
 
   /* ---------- 台灣到手價試算器 ---------- */
@@ -213,7 +213,6 @@ export const clientScript = /* js */ `
   const bar = $('#progressBar');
   const timeEl = $('#timeLabel');
   const pinBox = $('#pinned');
-  let count = 1200 + Math.floor(Math.random() * 400);
 
   const fmt = (s) => {
     s = Math.max(0, Math.round(s));
@@ -253,7 +252,6 @@ export const clientScript = /* js */ `
       pinBox.style.display = 'none';
     }
     $$('.scriptItem').forEach((el, k) => el.classList.toggle('on', k === i));
-    (seg.chat || []).forEach((c) => pushChat(c.u, c.m, ''));
     if (seg.mood === 'excited') burst(5);
     avatarBox.classList.add('speaking');
     clearTimeout(setSegment.t);
@@ -353,37 +351,10 @@ export const clientScript = /* js */ `
     });
   });
 
-  const viewersEls = $$('[data-viewers]');
-  setInterval(() => {
-    count = clamp(count + Math.round((Math.random() - 0.42) * 60), 640, 9800);
-    viewersEls.forEach((el) => (el.textContent = count.toLocaleString('en-US')));
-    $('#liveStatViewers').textContent = count.toLocaleString('en-US');
-  }, 2600);
-  viewersEls.forEach((el) => (el.textContent = count.toLocaleString('en-US')));
-
-  /* 觀眾隨機留言，讓直播間保持有人的感覺 */
-  let ci = 0;
-  setInterval(() => {
-    if (Math.random() < 0.62) {
-      const c = DATA.chatPool[ci++ % DATA.chatPool.length];
-      pushChat(c.u, c.m, '');
-      if (Math.random() < 0.25) burst(2);
-    }
-  }, 4200);
-
-  /* 直播開播時間倒數 / 已在線時間 */
-  const started = Date.now();
-  setInterval(() => {
-    const m = Math.floor((Date.now() - started) / 60000);
-    $('#liveStatTime').textContent = m + ' 分';
-  }, 5000);
-
   /* ---------- 初始化 ---------- */
   renderCart();
   syncCalc();
-  ['這批日本藥妝是這個月回購率最高的三瓶，等等三件一起帶最省運費 🤍',
-   '+' + count + ' 人正在線上看，留言區想要哪一瓶先跟我說！'].forEach((m, i) =>
-    setTimeout(() => pushChat(DATA.ai.personaName, m, i === 0 ? '' : 'sys'), 400 + i * 1500));
+  setTimeout(() => pushChat(DATA.ai.personaName, '這批日本藥妝是這個月回購率最高的三瓶，等等三件一起帶最省運費 🤍', ''), 400);
 
   const streamIO = new IntersectionObserver((entries) => {
     entries.forEach((e) => {

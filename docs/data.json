@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:09:24.945Z",
+  "generatedAt": "2026-09-24T11:39:22.378Z",
   "marketing": {
     "brand": "日本藥妝直送所",
     "tagline": "AI 生徒 24H 直播選物",
@@ -28,10 +28,10 @@
   },
   "fx": {
     "pair": "JPY/TWD",
-    "rate": 0.201346,
+    "rate": 0.200778,
     "source": "https://open.er-api.com/v6/latest/JPY",
-    "updatedAt": "Wed, 23 Sep 2026 00:02:31 +0000",
-    "fetchedAt": "2026-09-23T18:43:12.714Z",
+    "updatedAt": "Thu, 24 Sep 2026 00:02:32 +0000",
+    "fetchedAt": "2026-09-24T11:39:22.336Z",
     "fallback": false
   },
   "products": [
@@ -186,13 +186,13 @@
         "quantity": 1,
         "unitJpy": 3080,
         "jpyTotal": 3080,
-        "goodsTwd": 620,
+        "goodsTwd": 618,
         "shippingTwd": 188,
         "dutyTwd": 0,
         "vatTwd": 0,
         "customsTwd": 0,
-        "landedTwd": 808,
-        "perUnitTwd": 808,
+        "landedTwd": 806,
+        "perUnitTwd": 806,
         "weightKg": 0.3,
         "taxFree": true,
         "dutyFreeLimitTwd": 2000
@@ -580,7 +580,7 @@
         "url": "https://www.amazon.co.jp/dp/B08R6ZHZHV",
         "why": "洗後不緊繃的關鍵，是洗掉髒污、留下水分",
         "priceJpy": 3080,
-        "priceTwd": 808,
+        "priceTwd": 806,
         "accent": {
           "name": "sakura",
           "from": "#ff5e8a",
@@ -609,15 +609,15 @@
     ],
     "count": 3,
     "jpyTotal": 4058,
-    "goodsTotalTwd": 817,
-    "singleLandedTwd": 1381,
+    "goodsTotalTwd": 815,
+    "singleLandedTwd": 1379,
     "bundleShipTwd": 374,
     "bundleCustomsTwd": 0,
-    "bundleLandedTwd": 1191,
+    "bundleLandedTwd": 1189,
     "promoDiscountTwd": 0,
     "promoDiscountPercent": 0,
     "savedTwd": 190,
-    "finalTwd": 1191,
+    "finalTwd": 1189,
     "savingsBreakdown": "三件合併成一張訂單，國際運費只收一次，還穩穩壓在免稅門檻內。",
     "note": "所有商品合併成一張訂單結帳，國際運費只計算一次，件數越多平均每件越低。",
     "urls": [
@@ -644,88 +644,6 @@
     "reviewsTotal": 3854,
     "jpyTotal": 4058
   },
-  "chatPool": [
-    {
-      "u": "小豬_0921",
-      "m": "這瓶我已經回購第三次了 👍"
-    },
-    {
-      "u": "Kiki_TW",
-      "m": "主播今天的聲音好清醒 哈"
-    },
-    {
-      "u": "阿宏",
-      "m": "+1  我要兩瓶"
-    },
-    {
-      "u": "Mia✿",
-      "m": "想問一下 敏感肌可以用嗎？"
-    },
-    {
-      "u": "小葵的學生",
-      "m": "這價格比我上次去日本買還便宜…"
-    },
-    {
-      "u": "台北林太太",
-      "m": "已下單 等收貨 🤍"
-    },
-    {
-      "u": "Hank",
-      "m": "運費怎麼算？直送台灣嗎"
-    },
-    {
-      "u": "Yuki",
-      "m": "泥漿那瓶洗完真的不乾 推"
-    },
-    {
-      "u": "小安",
-      "m": "組合價是多少呀"
-    },
-    {
-      "u": "Chiao",
-      "m": "直播間的資訊欄有連結嗎"
-    },
-    {
-      "u": "柚子",
-      "m": "泡沫卸妝那瓶超省時間 上班族救星"
-    },
-    {
-      "u": "Peter_Lin",
-      "m": "會有關稅嗎？"
-    },
-    {
-      "u": "美妝控",
-      "m": "這個牌子日本藥妝店常缺貨欸"
-    },
-    {
-      "u": "小綠",
-      "m": "主播可以再示範一次用法嗎"
-    },
-    {
-      "u": "Amy",
-      "m": "買了 3 件組 一次解決 🙌"
-    },
-    {
-      "u": "老王",
-      "m": "第一次跟直播 想試試看"
-    },
-    {
-      "u": "Nina",
-      "m": "洗臉那瓶我用一年了 很穩"
-    },
-    {
-      "u": "QQ糖",
-      "m": "可以刷卡嗎？"
-    },
-    {
-      "u": "Ken",
-      "m": "三瓶一起買真的比較省運費"
-    },
-    {
-      "u": "小美",
-      "m": "已加入購物車 🛒"
-    }
-  ],
   "stream": {
     "title": "小葵 的日本藥妝選物台｜三瓶搞定日常保養",
     "persona": "小葵",
@@ -738,17 +656,7 @@
         "mood": "excited",
         "bg1": "#46284f",
         "bg2": "#100d1c",
-        "pin": null,
-        "chat": [
-          {
-            "u": "小豬_0921",
-            "m": "來了來了 🤍"
-          },
-          {
-            "u": "台北林太太",
-            "m": "今天有什麼好康"
-          }
-        ]
+        "pin": null
       },
       {
         "dur": 6,
@@ -756,13 +664,7 @@
         "mood": "happy",
         "bg1": "#33265a",
         "bg2": "#100d1c",
-        "pin": null,
-        "chat": [
-          {
-            "u": "Yuki",
-            "m": "這順序真的差很多 +1"
-          }
-        ]
+        "pin": null
       },
       {
         "dur": 7,
@@ -770,27 +672,15 @@
         "mood": "happy",
         "bg1": "#ff5e8a",
         "bg2": "#140f22",
-        "pin": "B08R6ZHZHV",
-        "chat": [
-          {
-            "u": "柚子",
-            "m": "這瓶我有在用 很推"
-          }
-        ]
+        "pin": "B08R6ZHZHV"
       },
       {
         "dur": 8,
-        "text": "洗後不緊繃的關鍵，是洗掉髒汙、留下水分 日本定價 ¥3,080，台灣到手大概 NT$808。",
+        "text": "洗後不緊繃的關鍵，是洗掉髒汙、留下水分 日本定價 ¥3,080，台灣到手大概 NT$806。",
         "mood": "happy",
         "bg1": "#ff5e8a",
         "bg2": "#140f22",
-        "pin": "B08R6ZHZHV",
-        "chat": [
-          {
-            "u": "Chiao",
-            "m": "這個價格可以欸"
-          }
-        ]
+        "pin": "B08R6ZHZHV"
       },
       {
         "dur": 8,
@@ -798,17 +688,7 @@
         "mood": "excited",
         "bg1": "#ff5e8a",
         "bg2": "#140f22",
-        "pin": "B08R6ZHZHV",
-        "chat": [
-          {
-            "u": "Mia✿",
-            "m": "想問敏感肌可以嗎"
-          },
-          {
-            "u": "小安",
-            "m": "+1"
-          }
-        ]
+        "pin": "B08R6ZHZHV"
       },
       {
         "dur": 7,
@@ -816,13 +696,7 @@
         "mood": "happy",
         "bg1": "#12b886",
         "bg2": "#140f22",
-        "pin": "B000FQMR1O",
-        "chat": [
-          {
-            "u": "柚子",
-            "m": "這瓶我有在用 很推"
-          }
-        ]
+        "pin": "B000FQMR1O"
       },
       {
         "dur": 8,
@@ -830,13 +704,7 @@
         "mood": "happy",
         "bg1": "#12b886",
         "bg2": "#140f22",
-        "pin": "B000FQMR1O",
-        "chat": [
-          {
-            "u": "Chiao",
-            "m": "這個價格可以欸"
-          }
-        ]
+        "pin": "B000FQMR1O"
       },
       {
         "dur": 8,
@@ -844,17 +712,7 @@
         "mood": "excited",
         "bg1": "#12b886",
         "bg2": "#140f22",
-        "pin": "B000FQMR1O",
-        "chat": [
-          {
-            "u": "Mia✿",
-            "m": "想問敏感肌可以嗎"
-          },
-          {
-            "u": "小安",
-            "m": "+1"
-          }
-        ]
+        "pin": "B000FQMR1O"
       },
       {
         "dur": 7,
@@ -862,13 +720,7 @@
         "mood": "happy",
         "bg1": "#f59f00",
         "bg2": "#140f22",
-        "pin": "B07G5JQW5V",
-        "chat": [
-          {
-            "u": "柚子",
-            "m": "這瓶我有在用 很推"
-          }
-        ]
+        "pin": "B07G5JQW5V"
       },
       {
         "dur": 8,
@@ -876,13 +728,7 @@
         "mood": "happy",
         "bg1": "#f59f00",
         "bg2": "#140f22",
-        "pin": "B07G5JQW5V",
-        "chat": [
-          {
-            "u": "Chiao",
-            "m": "這個價格可以欸"
-          }
-        ]
+        "pin": "B07G5JQW5V"
       },
       {
         "dur": 8,
@@ -890,17 +736,7 @@
         "mood": "excited",
         "bg1": "#f59f00",
         "bg2": "#140f22",
-        "pin": "B07G5JQW5V",
-        "chat": [
-          {
-            "u": "Mia✿",
-            "m": "想問敏感肌可以嗎"
-          },
-          {
-            "u": "小安",
-            "m": "+1"
-          }
-        ]
+        "pin": "B07G5JQW5V"
       },
       {
         "dur": 9,
@@ -908,35 +744,15 @@
         "mood": "excited",
         "bg1": "#5a2a6b",
         "bg2": "#140f22",
-        "pin": null,
-        "chat": [
-          {
-            "u": "Ken",
-            "m": "一起買真的比較省運費"
-          },
-          {
-            "u": "Amy",
-            "m": "已下單 🙌"
-          }
-        ]
+        "pin": null
       },
       {
         "dur": 7,
-        "text": "合購到手價 NT$1,191，比分開買省下 NT$190。想入手的話，先按下面的「一次買齊三件」，我把連結都放在資訊欄。",
+        "text": "合購到手價 NT$1,189，比分開買省下 NT$190。想入手的話，先按下面的「一次買齊三件」，我把連結都放在資訊欄。",
         "mood": "excited",
         "bg1": "#2f6b5a",
         "bg2": "#0d1a17",
-        "pin": null,
-        "chat": [
-          {
-            "u": "QQ糖",
-            "m": "已加入購物車 🛒"
-          },
-          {
-            "u": "老王",
-            "m": "第一次跟直播 想試試看"
-          }
-        ]
+        "pin": null
       },
       {
         "dur": 6,
@@ -944,13 +760,7 @@
         "mood": "happy",
         "bg1": "#3a2b6b",
         "bg2": "#100d1c",
-        "pin": null,
-        "chat": [
-          {
-            "u": "Nina",
-            "m": "謝謝主播 明天見 🤍"
-          }
-        ]
+        "pin": null
       }
     ],
     "firstProduct": "B08R6ZHZHV"

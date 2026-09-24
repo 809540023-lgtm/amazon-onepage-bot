@@ -102,8 +102,6 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .heroCard .stage{position:relative;border-radius:20px;overflow:hidden;
   background:radial-gradient(120% 120% at 30% 0%,#2b2247,#120f1f 70%);aspect-ratio:4/3.15}
 .heroCard .badge-live{position:absolute;top:12px;left:12px;z-index:3;display:flex;gap:8px;align-items:center}
-.heroCard .viewers{position:absolute;top:12px;right:12px;z-index:3;font-size:11.5px;font-weight:700;color:#fff;
-  background:rgba(0,0,0,.42);padding:5px 11px;border-radius:999px;backdrop-filter:blur(6px)}
 .heroCard .caption{position:absolute;bottom:12px;left:12px;right:12px;z-index:3;font-size:13px;font-weight:700;color:#fff;
   background:rgba(0,0,0,.5);backdrop-filter:blur(8px);padding:9px 13px;border-radius:12px;
   border-left:3px solid var(--pink)}
@@ -230,9 +228,6 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .player .pin .lb i{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.3s infinite}
 .player .pin .cc{font-size:11.5px;font-weight:700;color:rgba(255,255,255,.8);background:rgba(0,0,0,.45);
   padding:6px 11px;border-radius:6px;backdrop-filter:blur(6px)}
-.player .viewers{position:absolute;top:14px;right:14px;z-index:6;display:flex;align-items:center;gap:8px;font-size:12px;
-  font-weight:700;color:#fff;background:rgba(0,0,0,.46);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px)}
-.player .viewers i{color:#ff8fa8}
 .player .subtitle{position:absolute;left:50%;bottom:74px;transform:translateX(-50%);z-index:7;max-width:82%;text-align:center;
   background:rgba(8,6,14,.78);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(10px);
   padding:12px 20px;border-radius:14px;font-size:16px;font-weight:700;line-height:1.6;
@@ -274,7 +269,7 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .chatInput input::placeholder{color:rgba(255,255,255,.38)}
 .chatInput button{background:linear-gradient(135deg,var(--pink),var(--coral));color:#fff;border-radius:999px;padding:0 20px;
   font-weight:800;font-size:13.5px}
-.liveStats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px;position:relative;z-index:1}
+.liveStats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:22px;max-width:620px;position:relative;z-index:1}
 .liveStats .c{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.10);border-radius:var(--r-m);padding:16px;
   text-align:center}
 .liveStats b{font-family:var(--display);font-size:24px;display:block}
@@ -379,11 +374,11 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
     <span>🇯🇵 <b>日本 Amazon 原裝直送</b> 台灣</span>
     <span>🔴 AI 生徒 <b>小葵</b> 24H 選物直播中</span>
     <span>🛒 三件組合一起結帳 <b>只算一次國際運費</b></span>
-    <span>💴 匯率 1 JPY = 0.2013 TWD（2026/09/23 上午08:02）</span>
+    <span>💴 匯率 1 JPY = 0.2008 TWD（2026/09/24 上午08:02）</span>
     <span>🇯🇵 <b>日本 Amazon 原裝直送</b> 台灣</span>
     <span>🔴 AI 生徒 <b>小葵</b> 24H 選物直播中</span>
     <span>🛒 三件組合一起結帳 <b>只算一次國際運費</b></span>
-    <span>💴 匯率 1 JPY = 0.2013 TWD（2026/09/23 上午08:02）</span>
+    <span>💴 匯率 1 JPY = 0.2008 TWD（2026/09/24 上午08:02）</span>
   </div>
 </div>
 
@@ -424,7 +419,6 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
     <div class="heroCard">
       <div class="stage">
         <div class="badge-live"><span class="live-dot"><i></i>LIVE</span></div>
-        <div class="viewers"><i>👀</i> <span data-viewers>1,416</span> 人正在觀看</div>
         <div class="avatarWrap" id="heroAvatar"><svg class="avatar" viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI 生徒 小葵">
   <defs>
     <radialGradient id="kui-glow" cx="50%" cy="45%" r="55%">
@@ -595,7 +589,7 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
     <div class="reveal">
       <span class="eyebrow">🔴 LIVE NOW · AI 生徒影音直播模擬</span>
       <h2 class="h2" style="color:#fff">小葵 的直播間：<span class="grad">1 項商品開箱中</span></h2>
-      <p class="lead">這是模擬的 YouTube 直播畫面：AI 生徒會依照腳本逐句講解、字幕同步跑、聊天室會即時湧入觀眾留言，講到哪一瓶，播放器裡就會跳出售價。按「🔇」可以用瀏覽器語音朗讀，真的聽到她說話。</p>
+      <p class="lead">這是模擬的 YouTube 直播畫面：AI 生徒會依照腳本逐句講解、字幕同步跑，講到哪一瓶，播放器裡就會跳出售價。按「🔇」可以用瀏覽器語音朗讀，真的聽到她說話。聊天室是你跟 AI 生徒的對話，你問什麼她都會依商品資料回答。</p>
     </div>
 
     <div class="liveLayout">
@@ -605,7 +599,6 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
             <span class="lb"><i></i>LIVE</span>
             <span class="cc">CC 中文字幕（自動）</span>
           </div>
-          <div class="viewers"><i>👀</i> <span data-viewers>1,416</span> 人觀看</div>
           <div class="avatarWrap" id="avatarBox"><svg class="avatar" viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI 生徒 小葵">
   <defs>
     <radialGradient id="kui-glow" cx="50%" cy="45%" r="55%">
@@ -736,10 +729,8 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
     </div>
 
     <div class="liveStats">
-      <div class="c"><b id="liveStatViewers">1,416</b><small>同時觀看</small></div>
       <div class="c"><b>8</b><small>直播段落</small></div>
       <div class="c"><b>0:58</b><small>節目長度</small></div>
-      <div class="c"><b id="liveStatTime">0 分</b><small>本場已開播</small></div>
     </div>
 
     <div class="script reveal">
@@ -839,7 +830,7 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
       <div class="a">這一頁是用「日本 Amazon 商品網址 → 一頁式銷售網站」的產生器自動做出來的。AI 生徒 小葵 的直播畫面、字幕與聊天室都是模擬呈現，用來示範商品在直播情境下怎麼被介紹；實際開播時把同樣的腳本搬進 OBS／YouTube 直播即可。</div>
     </details>
     <details class="qa"><summary>價格什麼時候會變？</summary>
-      <div class="a">日本 Amazon 價格與庫存會隨時間變動。本頁資料擷取時間為 2026/09/24 上午03:09，若與 Amazon 頁面不同，一律以 Amazon 結帳頁為準。重新執行產生器即可更新。</div>
+      <div class="a">日本 Amazon 價格與庫存會隨時間變動。本頁資料擷取時間為 2026/09/24 下午07:39，若與 Amazon 頁面不同，一律以 Amazon 結帳頁為準。重新執行產生器即可更新。</div>
     </details>
   </div>
 </section>
@@ -867,7 +858,7 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
     <div class="disc">
       免責聲明：本頁為商品資訊整理與導購頁面，商品售價、庫存、運費與稅金一律以 Amazon.co.jp 結帳頁面為準，本頁試算數字僅供參考。
       所有商品圖片與商標版權屬於原品牌與 Amazon 所有。ASIN：B07G5JQW5V ·
-      資料擷取：2026/09/24 上午03:09 · 匯率：1 JPY = 0.2013 TWD ·
+      資料擷取：2026/09/24 下午07:39 · 匯率：1 JPY = 0.2008 TWD ·
       本頁由 amazon-onepage-bot 自動產生。
     </div>
   </div>
@@ -879,10 +870,10 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
   <button class="clear" id="dockClear">清空</button>
   <button class="btn btn-primary" id="dockBuy">前往 Amazon 結帳</button>
 </div>
-<a class="floatLive" href="#live">🔴 <span>LIVE</span> <span data-viewers>1,416</span></a>
+<a class="floatLive" href="#live">🔴 <span>LIVE</span></a>
 <div class="toast" id="toast"></div>
 
-<script type="application/json" id="site-data">{"fx":{"pair":"JPY/TWD","rate":0.201346,"source":"https://open.er-api.com/v6/latest/JPY","updatedAt":"Wed, 23 Sep 2026 00:02:31 +0000","fetchedAt":"2026-09-23T18:43:12.714Z","fallback":false},"shippingCfg":{"note":"台灣到手價為估算值，實際費率以 Amazon 結帳頁為準","baseTwd":95,"perItemTwd":45,"perKgTwd":160,"minItemWeightKg":0.3,"defaultItemWeightKg":0.3},"customsCfg":{"note":"台灣進口郵包完稅價格 NT$2,000 以下免稅；超過者預估關稅 + 營業稅","dutyFreeLimitTwd":2000,"dutyRate":0.05,"vatRate":0.05},"ai":{"personaName":"小葵","personaRole":"AI 生徒實習生","voice":"zh-TW","autoTts":false},"marketing":{"brand":"日本藥妝直送所","tagline":"AI 生徒 24H 直播選物","serviceFeeRate":0,"promoDiscountRate":0},"stats":{"products":1,"ratingAvg":4.3,"reviewsTotal":556,"jpyTotal":631},"bundle":{"steps":[{"step":1,"asin":"B07G5JQW5V","brand":"Cleansing Research","name":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…","role":"STEP 1 · 先把妝卸乾淨","image":"https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg","url":"https://www.amazon.co.jp/dp/B07G5JQW5V","why":"卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養","priceJpy":631,"priceTwd":315,"accent":{"name":"sakura","from":"#ff5e8a","to":"#ff9a6b","glow":"255,94,138"}}],"count":1,"jpyTotal":631,"goodsTotalTwd":127,"singleLandedTwd":315,"bundleShipTwd":188,"bundleCustomsTwd":0,"bundleLandedTwd":315,"promoDiscountTwd":0,"promoDiscountPercent":0,"savedTwd":0,"finalTwd":315,"savingsBreakdown":"三件合併成一張訂單，國際運費只收一次，還穩穩壓在免稅門檻內。","note":"所有商品合併成一張訂單結帳，國際運費只計算一次，件數越多平均每件越低。","urls":[{"asin":"B07G5JQW5V","url":"https://www.amazon.co.jp/dp/B07G5JQW5V","label":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…"}]},"chatPool":[{"u":"小豬_0921","m":"這瓶我已經回購第三次了 👍"},{"u":"Kiki_TW","m":"主播今天的聲音好清醒 哈"},{"u":"阿宏","m":"+1  我要兩瓶"},{"u":"Mia✿","m":"想問一下 敏感肌可以用嗎？"},{"u":"小葵的學生","m":"這價格比我上次去日本買還便宜…"},{"u":"台北林太太","m":"已下單 等收貨 🤍"},{"u":"Hank","m":"運費怎麼算？直送台灣嗎"},{"u":"Yuki","m":"泥漿那瓶洗完真的不乾 推"},{"u":"小安","m":"組合價是多少呀"},{"u":"Chiao","m":"直播間的資訊欄有連結嗎"},{"u":"柚子","m":"泡沫卸妝那瓶超省時間 上班族救星"},{"u":"Peter_Lin","m":"會有關稅嗎？"},{"u":"美妝控","m":"這個牌子日本藥妝店常缺貨欸"},{"u":"小綠","m":"主播可以再示範一次用法嗎"},{"u":"Amy","m":"買了 3 件組 一次解決 🙌"},{"u":"老王","m":"第一次跟直播 想試試看"},{"u":"Nina","m":"洗臉那瓶我用一年了 很穩"},{"u":"QQ糖","m":"可以刷卡嗎？"},{"u":"Ken","m":"三瓶一起買真的比較省運費"},{"u":"小美","m":"已加入購物車 🛒"}],"stream":{"title":"小葵 的日本藥妝選物台｜單品搞定日常保養","persona":"小葵","personaRole":"AI 生徒實習生","duration":58,"segments":[{"dur":7,"text":"哈囉～大家晚安！我是小葵，今天要開箱的是這個月台灣回購率最高的這瓶日本藥妝。","mood":"excited","bg1":"#46284f","bg2":"#100d1c","pin":null,"chat":[{"u":"小豬_0921","m":"來了來了 🤍"},{"u":"台北林太太","m":"今天有什麼好康"}]},{"dur":6,"text":"先講重點：用法、用量、還有台灣到手價怎麼算，我一次講清楚。","mood":"happy","bg1":"#33265a","bg2":"#100d1c","pin":null,"chat":[{"u":"Yuki","m":"這順序真的差很多 +1"}]},{"dur":7,"text":"Cleansing Research 的 クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…。一抹就融妝，連毛孔裡的髒汙都不放過。","mood":"happy","bg1":"#ff5e8a","bg2":"#140f22","pin":"B07G5JQW5V","chat":[{"u":"柚子","m":"這瓶我有在用 很推"}]},{"dur":8,"text":"卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養 日本定價 ¥631，台灣到手大概 NT$315。","mood":"happy","bg1":"#ff5e8a","bg2":"#140f22","pin":"B07G5JQW5V","chat":[{"u":"Chiao","m":"這個價格可以欸"}]},{"dur":8,"text":"4.3 星、556 則評價，卸妝油沖不乾淨，臉上一直有膜感的人真的要試。用法：手乾臉乾時按壓 2～3 下，全臉畫圈按摩 30 秒，加水乳化後沖淨。","mood":"excited","bg1":"#ff5e8a","bg2":"#140f22","pin":"B07G5JQW5V","chat":[{"u":"Mia✿","m":"想問敏感肌可以嗎"},{"u":"小安","m":"+1"}]},{"dur":9,"text":"想知道台灣到手價怎麼算？頁面下方有試算器，數量調一下就知道含運費與關稅的總價。","mood":"excited","bg1":"#5a2a6b","bg2":"#140f22","pin":null,"chat":[{"u":"Ken","m":"一起買真的比較省運費"},{"u":"Amy","m":"已下單 🙌"}]},{"dur":7,"text":"我把商品連結放在資訊欄，先按下面的按鈕加進清單，等等一起看運費怎麼攤最划算。","mood":"excited","bg1":"#2f6b5a","bg2":"#0d1a17","pin":null,"chat":[{"u":"QQ糖","m":"已加入購物車 🛒"},{"u":"老王","m":"第一次跟直播 想試試看"}]},{"dur":6,"text":"今天的直播到這邊，小葵 每天同一時間開播。有任何膚況問題都可以在下面留言，我看到都會回。","mood":"happy","bg1":"#3a2b6b","bg2":"#100d1c","pin":null,"chat":[{"u":"Nina","m":"謝謝主播 明天見 🤍"}]}],"firstProduct":"B07G5JQW5V"},"products":[{"asin":"B07G5JQW5V","url":"https://www.amazon.co.jp/dp/B07G5JQW5V","title":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理 毛孔護理 泡沫洗臉 省時 無酒精","hero":"https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg","priceJpy":631,"weightKg":0.3,"price":{"perUnitTwd":315,"landedTwd":315,"shippingTwd":188,"goodsTwd":127},"content":{"shortName":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…","brand":"Cleansing Research","accent":{"name":"sakura","from":"#ff5e8a","to":"#ff9a6b","glow":"255,94,138"}}}]}</script>
+<script type="application/json" id="site-data">{"fx":{"pair":"JPY/TWD","rate":0.200778,"source":"https://open.er-api.com/v6/latest/JPY","updatedAt":"Thu, 24 Sep 2026 00:02:32 +0000","fetchedAt":"2026-09-24T11:39:22.336Z","fallback":false},"shippingCfg":{"note":"台灣到手價為估算值，實際費率以 Amazon 結帳頁為準","baseTwd":95,"perItemTwd":45,"perKgTwd":160,"minItemWeightKg":0.3,"defaultItemWeightKg":0.3},"customsCfg":{"note":"台灣進口郵包完稅價格 NT$2,000 以下免稅；超過者預估關稅 + 營業稅","dutyFreeLimitTwd":2000,"dutyRate":0.05,"vatRate":0.05},"ai":{"personaName":"小葵","personaRole":"AI 生徒實習生","voice":"zh-TW","autoTts":false},"marketing":{"brand":"日本藥妝直送所","tagline":"AI 生徒 24H 直播選物","serviceFeeRate":0,"promoDiscountRate":0},"stats":{"products":1,"ratingAvg":4.3,"reviewsTotal":556,"jpyTotal":631},"bundle":{"steps":[{"step":1,"asin":"B07G5JQW5V","brand":"Cleansing Research","name":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…","role":"STEP 1 · 先把妝卸乾淨","image":"https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg","url":"https://www.amazon.co.jp/dp/B07G5JQW5V","why":"卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養","priceJpy":631,"priceTwd":315,"accent":{"name":"sakura","from":"#ff5e8a","to":"#ff9a6b","glow":"255,94,138"}}],"count":1,"jpyTotal":631,"goodsTotalTwd":127,"singleLandedTwd":315,"bundleShipTwd":188,"bundleCustomsTwd":0,"bundleLandedTwd":315,"promoDiscountTwd":0,"promoDiscountPercent":0,"savedTwd":0,"finalTwd":315,"savingsBreakdown":"三件合併成一張訂單，國際運費只收一次，還穩穩壓在免稅門檻內。","note":"所有商品合併成一張訂單結帳，國際運費只計算一次，件數越多平均每件越低。","urls":[{"asin":"B07G5JQW5V","url":"https://www.amazon.co.jp/dp/B07G5JQW5V","label":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…"}]},"stream":{"title":"小葵 的日本藥妝選物台｜單品搞定日常保養","persona":"小葵","personaRole":"AI 生徒實習生","duration":58,"segments":[{"dur":7,"text":"哈囉～大家晚安！我是小葵，今天要開箱的是這個月台灣回購率最高的這瓶日本藥妝。","mood":"excited","bg1":"#46284f","bg2":"#100d1c","pin":null},{"dur":6,"text":"先講重點：用法、用量、還有台灣到手價怎麼算，我一次講清楚。","mood":"happy","bg1":"#33265a","bg2":"#100d1c","pin":null},{"dur":7,"text":"Cleansing Research 的 クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…。一抹就融妝，連毛孔裡的髒汙都不放過。","mood":"happy","bg1":"#ff5e8a","bg2":"#140f22","pin":"B07G5JQW5V"},{"dur":8,"text":"卸妝 × 洗臉一瓶完成，回家只想躺平也能好好保養 日本定價 ¥631，台灣到手大概 NT$315。","mood":"happy","bg1":"#ff5e8a","bg2":"#140f22","pin":"B07G5JQW5V"},{"dur":8,"text":"4.3 星、556 則評價，卸妝油沖不乾淨，臉上一直有膜感的人真的要試。用法：手乾臉乾時按壓 2～3 下，全臉畫圈按摩 30 秒，加水乳化後沖淨。","mood":"excited","bg1":"#ff5e8a","bg2":"#140f22","pin":"B07G5JQW5V"},{"dur":9,"text":"想知道台灣到手價怎麼算？頁面下方有試算器，數量調一下就知道含運費與關稅的總價。","mood":"excited","bg1":"#5a2a6b","bg2":"#140f22","pin":null},{"dur":7,"text":"我把商品連結放在資訊欄，先按下面的按鈕加進清單，等等一起看運費怎麼攤最划算。","mood":"excited","bg1":"#2f6b5a","bg2":"#0d1a17","pin":null},{"dur":6,"text":"今天的直播到這邊，小葵 每天同一時間開播。有任何膚況問題都可以在下面留言，我看到都會回。","mood":"happy","bg1":"#3a2b6b","bg2":"#100d1c","pin":null}],"firstProduct":"B07G5JQW5V"},"products":[{"asin":"B07G5JQW5V","url":"https://www.amazon.co.jp/dp/B07G5JQW5V","title":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理 毛孔護理 泡沫洗臉 省時 無酒精","hero":"https://m.media-amazon.com/images/I/51Xl9ZTe4qL._AC_SL1200_.jpg","priceJpy":631,"weightKg":0.3,"price":{"perUnitTwd":315,"landedTwd":315,"shippingTwd":188,"goodsTwd":127},"content":{"shortName":"クレンジングリサーチ 泡沫清潔卸妝 150mL 清爽型 去角質護理…","brand":"Cleansing Research","accent":{"name":"sakura","from":"#ff5e8a","to":"#ff9a6b","glow":"255,94,138"}}}]}</script>
 <script>
 (function () {
   'use strict';
@@ -982,7 +973,7 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
       if (win && i === 0) win.focus();
     });
     toast('已為你開啟 ' + list.length + ' 個 Amazon 商品頁');
-    pushChat('系統', '✅ 觀眾 ' + count + ' 送出 ' + list.length + ' 筆訂單連結', 'sys');
+    pushChat('系統', '✅ 已為你整理 ' + list.length + ' 筆商品連結（請在 Amazon 完成結帳）', 'sys');
   });
 
   /* ---------- 台灣到手價試算器 ---------- */
@@ -1098,7 +1089,6 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
   const bar = $('#progressBar');
   const timeEl = $('#timeLabel');
   const pinBox = $('#pinned');
-  let count = 1200 + Math.floor(Math.random() * 400);
 
   const fmt = (s) => {
     s = Math.max(0, Math.round(s));
@@ -1138,7 +1128,6 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
       pinBox.style.display = 'none';
     }
     $$('.scriptItem').forEach((el, k) => el.classList.toggle('on', k === i));
-    (seg.chat || []).forEach((c) => pushChat(c.u, c.m, ''));
     if (seg.mood === 'excited') burst(5);
     avatarBox.classList.add('speaking');
     clearTimeout(setSegment.t);
@@ -1238,37 +1227,10 @@ footer .disc{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,
     });
   });
 
-  const viewersEls = $$('[data-viewers]');
-  setInterval(() => {
-    count = clamp(count + Math.round((Math.random() - 0.42) * 60), 640, 9800);
-    viewersEls.forEach((el) => (el.textContent = count.toLocaleString('en-US')));
-    $('#liveStatViewers').textContent = count.toLocaleString('en-US');
-  }, 2600);
-  viewersEls.forEach((el) => (el.textContent = count.toLocaleString('en-US')));
-
-  /* 觀眾隨機留言，讓直播間保持有人的感覺 */
-  let ci = 0;
-  setInterval(() => {
-    if (Math.random() < 0.62) {
-      const c = DATA.chatPool[ci++ % DATA.chatPool.length];
-      pushChat(c.u, c.m, '');
-      if (Math.random() < 0.25) burst(2);
-    }
-  }, 4200);
-
-  /* 直播開播時間倒數 / 已在線時間 */
-  const started = Date.now();
-  setInterval(() => {
-    const m = Math.floor((Date.now() - started) / 60000);
-    $('#liveStatTime').textContent = m + ' 分';
-  }, 5000);
-
   /* ---------- 初始化 ---------- */
   renderCart();
   syncCalc();
-  ['這批日本藥妝是這個月回購率最高的三瓶，等等三件一起帶最省運費 🤍',
-   '+' + count + ' 人正在線上看，留言區想要哪一瓶先跟我說！'].forEach((m, i) =>
-    setTimeout(() => pushChat(DATA.ai.personaName, m, i === 0 ? '' : 'sys'), 400 + i * 1500));
+  setTimeout(() => pushChat(DATA.ai.personaName, '這批日本藥妝是這個月回購率最高的三瓶，等等三件一起帶最省運費 🤍', ''), 400);
 
   const streamIO = new IntersectionObserver((entries) => {
     entries.forEach((e) => {

@@ -30,7 +30,6 @@ function clientData(model) {
     marketing: model.marketing,
     stats: model.stats,
     bundle: model.bundle,
-    chatPool: model.chatPool,
     stream: model.stream,
     products: model.products.map((p) => ({
       asin: p.asin,
@@ -85,8 +84,6 @@ export function renderSite(model) {
   const hero = model.products[0];
   const stream = model.stream;
   const avatar = avatarSvg();
-  const seedViewers = 860 + (stats.reviewsTotal % 900);
-  const viewersHtml = seedViewers.toLocaleString('en-US');
   const pageTitle = `${marketing.brand} · AI 生徒${ai.personaName}的日本藥妝選物台｜${stats.products} 項日本藥妝搞定日常保養`;
 
   return `<!DOCTYPE html>
@@ -155,7 +152,6 @@ export function renderSite(model) {
     <div class="heroCard">
       <div class="stage">
         <div class="badge-live"><span class="live-dot"><i></i>LIVE</span></div>
-        <div class="viewers"><i>👀</i> <span data-viewers>${viewersHtml}</span> 人正在觀看</div>
         <div class="avatarWrap" id="heroAvatar">${avatar}</div>
         <div class="wave" aria-hidden="true">${'<i></i>'.repeat(7)}</div>
         <div class="caption">「${esc(hero.content.headline)}」</div>
@@ -237,7 +233,7 @@ ${model.products.length > 1 ? `
     <div class="reveal">
       <span class="eyebrow">🔴 LIVE NOW · AI 生徒影音直播模擬</span>
       <h2 class="h2" style="color:#fff">${esc(ai.personaName)} 的直播間：<span class="grad">${stats.products} 項商品開箱中</span></h2>
-      <p class="lead">這是模擬的 YouTube 直播畫面：AI 生徒會依照腳本逐句講解、字幕同步跑、聊天室會即時湧入觀眾留言，講到哪一瓶，播放器裡就會跳出售價。按「🔇」可以用瀏覽器語音朗讀，真的聽到她說話。</p>
+      <p class="lead">這是模擬的 YouTube 直播畫面：AI 生徒會依照腳本逐句講解、字幕同步跑，講到哪一瓶，播放器裡就會跳出售價。按「🔇」可以用瀏覽器語音朗讀，真的聽到她說話。聊天室是你跟 AI 生徒的對話，你問什麼她都會依商品資料回答。</p>
     </div>
 
     <div class="liveLayout">
@@ -247,7 +243,6 @@ ${model.products.length > 1 ? `
             <span class="lb"><i></i>LIVE</span>
             <span class="cc">CC 中文字幕（自動）</span>
           </div>
-          <div class="viewers"><i>👀</i> <span data-viewers>${viewersHtml}</span> 人觀看</div>
           <div class="avatarWrap" id="avatarBox">${avatar}</div>
           <div class="wave" aria-hidden="true">${'<i></i>'.repeat(7)}</div>
           <div class="hearts" id="hearts"></div>
@@ -275,10 +270,8 @@ ${model.products.length > 1 ? `
     </div>
 
     <div class="liveStats">
-      <div class="c"><b id="liveStatViewers">${viewersHtml}</b><small>同時觀看</small></div>
       <div class="c"><b>${stream.segments.length}</b><small>直播段落</small></div>
       <div class="c"><b>${Math.floor(stream.duration / 60)}:${String(stream.duration % 60).padStart(2, '0')}</b><small>節目長度</small></div>
-      <div class="c"><b id="liveStatTime">0 分</b><small>本場已開播</small></div>
     </div>
 
     <div class="script reveal">
@@ -386,7 +379,7 @@ ${model.products.length > 1 ? `
   <button class="clear" id="dockClear">清空</button>
   <button class="btn btn-primary" id="dockBuy">前往 Amazon 結帳</button>
 </div>
-<a class="floatLive" href="#live">🔴 <span>LIVE</span> <span data-viewers>${viewersHtml}</span></a>
+<a class="floatLive" href="#live">🔴 <span>LIVE</span></a>
 <div class="toast" id="toast"></div>
 
 <script type="application/json" id="site-data">${jsonForScript(clientData(model))}</script>

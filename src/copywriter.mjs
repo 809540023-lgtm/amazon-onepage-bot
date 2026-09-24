@@ -261,30 +261,6 @@ export function buildProductContent(product, index = 0) {
   };
 }
 
-/** 台灣觀眾聊天室語料，讓直播間看起來像真的有觀眾。 */
-export const CHAT_POOL = [
-  { u: '小豬_0921', m: '這瓶我已經回購第三次了 👍' },
-  { u: 'Kiki_TW', m: '主播今天的聲音好清醒 哈' },
-  { u: '阿宏', m: '+1  我要兩瓶' },
-  { u: 'Mia✿', m: '想問一下 敏感肌可以用嗎？' },
-  { u: '小葵的學生', m: '這價格比我上次去日本買還便宜…' },
-  { u: '台北林太太', m: '已下單 等收貨 🤍' },
-  { u: 'Hank', m: '運費怎麼算？直送台灣嗎' },
-  { u: 'Yuki', m: '泥漿那瓶洗完真的不乾 推' },
-  { u: '小安', m: '組合價是多少呀' },
-  { u: 'Chiao', m: '直播間的資訊欄有連結嗎' },
-  { u: '柚子', m: '泡沫卸妝那瓶超省時間 上班族救星' },
-  { u: 'Peter_Lin', m: '會有關稅嗎？' },
-  { u: '美妝控', m: '這個牌子日本藥妝店常缺貨欸' },
-  { u: '小綠', m: '主播可以再示範一次用法嗎' },
-  { u: 'Amy', m: '買了 3 件組 一次解決 🙌' },
-  { u: '老王', m: '第一次跟直播 想試試看' },
-  { u: 'Nina', m: '洗臉那瓶我用一年了 很穩' },
-  { u: 'QQ糖', m: '可以刷卡嗎？' },
-  { u: 'Ken', m: '三瓶一起買真的比較省運費' },
-  { u: '小美', m: '已加入購物車 🛒' },
-];
-
 const now = () => new Date().toISOString();
 
 /** 組出整頁模型：商品內容 + 價格試算 + 三件組合 + 直播腳本。 */
@@ -367,7 +343,6 @@ export function buildSiteModel(products, fx, { priceBreakdown } = {}) {
     products: withPrices,
     bundle: bundleModel,
     stats,
-    chatPool: CHAT_POOL,
     stream: buildStream(withPrices, bundleModel, cfg),
   };
 }
@@ -386,7 +361,6 @@ export function buildStream(products, bundle, cfg) {
       bg1: extra.bg1 || '#33265a',
       bg2: extra.bg2 || '#100d1c',
       pin: extra.pin ?? null,
-      chat: extra.chat || [],
     });
 
   const name = cfg.ai.personaName;
@@ -394,10 +368,6 @@ export function buildStream(products, bundle, cfg) {
 
   add(7, `哈囉～大家晚安！我是${name}，今天要開箱的是這個月台灣回購率最高的${label}日本藥妝。`, 'excited', {
     bg1: '#46284f',
-    chat: [
-      { u: '小豬_0921', m: '來了來了 🤍' },
-      { u: '台北林太太', m: '今天有什麼好康' },
-    ],
   });
   add(
     6,
@@ -405,7 +375,7 @@ export function buildStream(products, bundle, cfg) {
       ? '順序很重要：先把妝卸乾淨、再洗臉、最後代謝角質。照這個順序用，效果差很多。'
       : '先講重點：用法、用量、還有台灣到手價怎麼算，我一次講清楚。',
     'happy',
-    { chat: [{ u: 'Yuki', m: '這順序真的差很多 +1' }] },
+    { },
   );
 
   products.forEach((p) => {
@@ -414,19 +384,13 @@ export function buildStream(products, bundle, cfg) {
     const bg2 = '#140f22';
     add(7, `${c.brand} 的 ${c.shortName}。${c.headline}。`, 'happy', {
       bg1, bg2, pin: p.asin,
-      chat: [{ u: '柚子', m: '這瓶我有在用 很推' }],
     });
     add(8, `${c.subhead} 日本定價 ${p.priceJpy ? '¥' + p.priceJpy.toLocaleString('ja-JP') : '—'}，` +
       `台灣到手大概 ${p.price.perUnitTwd ? 'NT$' + p.price.perUnitTwd.toLocaleString('zh-TW') : '依結帳頁'}。`, 'happy', {
       bg1, bg2, pin: p.asin,
-      chat: [{ u: 'Chiao', m: '這個價格可以欸' }],
     });
     add(8, `${c.proofLine ? c.proofLine + '，' : ''}${c.painPoints[0]}的人真的要試。用法：${c.usage}`, 'excited', {
       bg1, bg2, pin: p.asin,
-      chat: [
-        { u: 'Mia✿', m: '想問敏感肌可以嗎' },
-        { u: '小安', m: '+1' },
-      ],
     });
   });
 
@@ -440,10 +404,6 @@ export function buildStream(products, bundle, cfg) {
     {
       bg1: '#5a2a6b',
       bg2: '#140f22',
-      chat: [
-        { u: 'Ken', m: '一起買真的比較省運費' },
-        { u: 'Amy', m: '已下單 🙌' },
-      ],
     },
   );
   add(
@@ -457,15 +417,10 @@ export function buildStream(products, bundle, cfg) {
     {
       bg1: '#2f6b5a',
       bg2: '#0d1a17',
-      chat: [
-        { u: 'QQ糖', m: '已加入購物車 🛒' },
-        { u: '老王', m: '第一次跟直播 想試試看' },
-      ],
     },
   );
   add(6, `今天的直播到這邊，${name} 每天同一時間開播。有任何膚況問題都可以在下面留言，我看到都會回。`, 'happy', {
     bg1: '#3a2b6b', bg2: '#100d1c',
-    chat: [{ u: 'Nina', m: '謝謝主播 明天見 🤍' }],
   });
 
   return {

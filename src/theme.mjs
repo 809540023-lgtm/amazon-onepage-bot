@@ -87,8 +87,6 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .heroCard .stage{position:relative;border-radius:20px;overflow:hidden;
   background:radial-gradient(120% 120% at 30% 0%,#2b2247,#120f1f 70%);aspect-ratio:4/3.15}
 .heroCard .badge-live{position:absolute;top:12px;left:12px;z-index:3;display:flex;gap:8px;align-items:center}
-.heroCard .viewers{position:absolute;top:12px;right:12px;z-index:3;font-size:11.5px;font-weight:700;color:#fff;
-  background:rgba(0,0,0,.42);padding:5px 11px;border-radius:999px;backdrop-filter:blur(6px)}
 .heroCard .caption{position:absolute;bottom:12px;left:12px;right:12px;z-index:3;font-size:13px;font-weight:700;color:#fff;
   background:rgba(0,0,0,.5);backdrop-filter:blur(8px);padding:9px 13px;border-radius:12px;
   border-left:3px solid var(--pink)}
@@ -215,9 +213,6 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .player .pin .lb i{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.3s infinite}
 .player .pin .cc{font-size:11.5px;font-weight:700;color:rgba(255,255,255,.8);background:rgba(0,0,0,.45);
   padding:6px 11px;border-radius:6px;backdrop-filter:blur(6px)}
-.player .viewers{position:absolute;top:14px;right:14px;z-index:6;display:flex;align-items:center;gap:8px;font-size:12px;
-  font-weight:700;color:#fff;background:rgba(0,0,0,.46);padding:6px 12px;border-radius:999px;backdrop-filter:blur(6px)}
-.player .viewers i{color:#ff8fa8}
 .player .subtitle{position:absolute;left:50%;bottom:74px;transform:translateX(-50%);z-index:7;max-width:82%;text-align:center;
   background:rgba(8,6,14,.78);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(10px);
   padding:12px 20px;border-radius:14px;font-size:16px;font-weight:700;line-height:1.6;
@@ -259,7 +254,7 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .chatInput input::placeholder{color:rgba(255,255,255,.38)}
 .chatInput button{background:linear-gradient(135deg,var(--pink),var(--coral));color:#fff;border-radius:999px;padding:0 20px;
   font-weight:800;font-size:13.5px}
-.liveStats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px;position:relative;z-index:1}
+.liveStats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:22px;max-width:620px;position:relative;z-index:1}
 .liveStats .c{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.10);border-radius:var(--r-m);padding:16px;
   text-align:center}
 .liveStats b{font-family:var(--display);font-size:24px;display:block}
